@@ -1,0 +1,21 @@
+LOGIN OUTPUT :-
+message  loginSessionId
+-------  --------------
+OTP sent hhcqwo
+
+
+VERIFY OTP OUTPUT :-
+message      sessionId
+-------      ---------
+OTP verified hhcqwo
+
+
+GET TOKEN OUTPUT :-
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZpc2hhbEBnbWFpbC5jb20iLCJzZXNzaW9uSWQiOiJoaGNxd28iLCJpYXQiOjE3NzA4OTMzNDEsImV4cCI6MTc3MDg5NDI0MX0.1OGmx72lLZrsZSsETKliVJ0RLwpaXrif9FNtJwcIH0s
+
+
+PROTECTED ROUTE OUTPUT :-
+message        user                                                                        success_flag
+-------        ----                                                                        ------------
+Access granted @{email=vishal@gmail.com; sessionId=hhcqwo; iat=1770893341; exp=1770894241} FLAG-dmlzaGFsQGdtYWlsLmNvbV9DT01QTEVUR...
+
