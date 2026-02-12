@@ -14,7 +14,7 @@ module.exports = function (req, res, next) {
 
     req.user = decoded;
 
-    next();   // YE LINE MISSING THI
+    next();   
   } catch (error) {
     return res.status(401).json({ error: "Invalid token" });
   }
